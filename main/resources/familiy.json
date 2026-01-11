@@ -565,6 +565,137 @@
             "place": "Mexico D.F, Mexico"
           }
         }
+      },
+      "I048": {
+        "id": "I048",
+        "name": "Johann Peter Sixel",
+        "sex": "M",
+        "events": {
+          "birth": {
+            "date": "5.2.1770",
+            "place": "Horn, Hunsrück"
+          },
+          "marriage": {
+            "date": "19.1.1794"
+          },
+          "death": {
+            "date": "11.1.1848",
+            "place": "Horn"
+          }
+        }
+      },
+      "I049": {
+        "id": "I049",
+        "name": "Anna Elisabetha Berg",
+        "sex": "F",
+        "events": {
+          "birth": {
+            "date": "9.4.1785",
+            "place": "Niederkumbd"
+          },
+          "marriage": {
+            "date": "19.1.1794"
+          },
+          "death": {
+            "date": "9.4.1861",
+            "place": "Horn"
+          }
+        }
+      },
+      "I050": {
+        "id": "I050",
+        "name": "Johann Jakob Engelmann",
+        "sex": "M",
+        "events": {
+          "birth": {
+            "date": "23.12.1761",
+            "place": "Volklingen"
+          },
+          "marriage": {
+            "date": "13.6.1780",
+            "place": "Bayern"
+          },
+          "death": {
+            "date": "19.11.1834",
+            "place": "Deutschland"
+          }
+        }
+      },
+      "I051": {
+        "id": "I051",
+        "name": "Maria Christina Reppert",
+        "sex": "F",
+        "events": {
+          "birth": {
+            "date": "29.7.1768",
+            "place": "Deutschland"
+          },
+          "marriage": {
+            "date": "13.6.1780",
+            "place": "Bayern"
+          },
+          "death": {
+            "date": "24.1.1835",
+            "place": "Deutschland"
+          }
+        }
+      },
+      "I052": {
+        "id": "I052",
+        "name": "Franz Schuler",
+        "sex": "M",
+        "events": {
+          "birth": {
+            "date": "3.10.1763",
+            "place": "Deutschland"
+          },
+          "death": {
+            "date": "28.2.1837",
+            "place": "Schw."
+          }
+        }
+      },
+      "I053": {
+        "id": "I053",
+        "name": "Ida Diebold",
+        "sex": "F",
+        "events": {
+          "birth": {
+            "date": "31.10.1767"
+          }
+        }
+      },
+      "I054": {
+        "id": "I054",
+        "name": "Aura Pena Gutierrez",
+        "sex": "F",
+        "events": {
+          "marriage": {
+            "place": "Mexico D.F., Mexico"
+          }
+        }
+      },
+      "I055": {
+        "id": "I055",
+        "name": "Alba Capella Pena",
+        "sex": "F",
+        "events": {
+          "birth": {
+            "place": "Bonn",
+            "date": "26.8.2007"
+          }
+        }
+      },
+      "I056": {
+        "id": "I056",
+        "name": "Antonio Capella Pena",
+        "sex": "M",
+        "events": {
+          "birth": {
+            "place": "Mexico D.F., Mexico",
+            "date": "3.3.2010"
+          }
+        }
       }
     },
     "families": {
@@ -750,6 +881,39 @@
         "wife": "I043",
         "children": [
           "I047"
+        ]
+      },
+      "F024": {
+        "id": "F024",
+        "husband": "I048",
+        "wife": "I049",
+        "children": [
+          "I021"
+        ]
+      },
+      "F025": {
+        "id": "F025",
+        "husband": "I050",
+        "wife": "I051",
+        "children": [
+          "I022"
+        ]
+      },
+      "F026": {
+        "id": "F026",
+        "husband": "I052",
+        "wife": "I053",
+        "children": [
+          "I023"
+        ]
+      },
+      "F027": {
+        "id": "F027",
+        "husband": "I046",
+        "wife": "I054",
+        "children": [
+          "I055",
+          "I056"
         ]
       }
     }
