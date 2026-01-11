@@ -696,6 +696,75 @@
             "date": "3.3.2010"
           }
         }
+      },
+      "I057": {
+        "id": "I057",
+        "name": "Johann Michael Sixel",
+        "sex": "M",
+        "events": {
+          "birth": {
+            "date": "20.2.1740"
+          },
+          "death": {
+            "date": "4.4.1815"
+          }
+        }
+      },
+      "I058": {
+        "id": "I058",
+        "name": "Anna Elisabeth Lenhart",
+        "Sex": "F",
+        "events": {
+          "birth": {
+            "date": "22.10.1741",
+            "place": "Chumbd"
+          },
+          "death": {
+            "date": "14.5.1780",
+            "place": "Horn"
+          }
+        }
+      },
+      "I059": {
+        "id": "I059",
+        "name": "Johann Petrus Sixel",
+        "sex": "M",
+        "events": {
+          "birth": {
+            "date": "30.9.1708",
+            "place": "Hunsrück"
+          },
+          "death": {
+            "date": "28.6.1768"
+          }
+        }
+      },
+      "I060": {
+        "id": "I059",
+        "name": "Anna Elisabetha Wickert",
+        "comment": "Beburtsdatum 1712-1735",
+        "sex": "F",
+        "events": {
+          "death": {
+            "date": "23.1.1761"
+          }
+        }
+      },
+      "I061": {
+        "id": "I061",
+        "name": "Johann V Georg Lenhart",
+        "comment": "auch Leonhard",
+        "sex": "M",
+        "events": {
+          "birth": {
+            "date": "1716"
+          }
+        }
+      },
+      "I062": {
+        "id": "I062",
+        "name": "Anna Magdalene Kurz",
+        "sex": "F"
       }
     },
     "families": {
@@ -914,6 +983,30 @@
         "children": [
           "I055",
           "I056"
+        ]
+      },
+      "F028": {
+        "id": "F028",
+        "husband": "I057",
+        "wife": "I058",
+        "children": [
+          "I048"
+        ]
+      },
+      "F029": {
+        "id": "F029",
+        "husband": "I059",
+        "wife": "I060",
+        "children": [
+          "I057"
+        ]
+      },
+      "F030": {
+        "id": "F030",
+        "husband": "I061",
+        "wife": "I062",
+        "children": [
+          "I058"
         ]
       }
     }
