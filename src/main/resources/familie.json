@@ -4,50 +4,68 @@
       "id": "I001",
       "name": "Adolph Hinrich Kasten",
       "sex": "M",
-      "families_as_spouse" : ["F001"]
+      "families_as_spouse": [
+        "F001"
+      ]
     },
     "I002": {
       "id": "I002",
       "name": "Anna Elisabeth",
       "sex": "F",
-      "families_as_spouse" : ["F001"]
+      "families_as_spouse": [
+        "F001"
+      ]
     },
     "I003": {
       "id": "I003",
       "name": "Helm Waake",
       "sex": "M",
-      "families_as_spouse" : ["F002"]
+      "families_as_spouse": [
+        "F002"
+      ]
     },
     "I004": {
       "id": "I004",
       "name": "Oelgardt",
       "sex": "F",
-      "families_as_spouse" : ["F002"]
+      "families_as_spouse": [
+        "F002"
+      ]
     },
     "I005": {
       "id": "I005",
       "name": "Dietrich J. Stodemann",
       "sex": "M",
-      "families_as_spouse" : ["F003"]
+      "families_as_spouse": [
+        "F003"
+      ]
     },
     "I006": {
       "id": "I006",
       "name": "Oelgardt Waaken",
       "sex": "F",
-      "families_as_spouse" : ["F003"]
+      "families_as_spouse": [
+        "F003"
+      ]
     },
     "I007": {
       "id": "I007",
       "name": "Johan Friedrich Schmidt",
       "sex": "M",
-      "families_as_spouse" : ["F004"]
+      "families_as_spouse": [
+        "F004"
+      ]
     },
     "I008": {
       "id": "I008",
       "name": "Olga Kasten",
       "sex": "F",
-      "families_as_spouse" : ["F004"],
-      "families_as_child" : ["F001"],
+      "families_as_spouse": [
+        "F004"
+      ],
+      "families_as_child": [
+        "F001"
+      ],
       "events": {
         "birth": {
           "date": "15.12.1735",
@@ -59,8 +77,12 @@
       "id": "I009",
       "name": "Dietrich Helmuth Waake",
       "sex": "M",
-      "families_as_spouse" : ["F005"],
-      "families_as_child" : ["F002"],
+      "families_as_spouse": [
+        "F005"
+      ],
+      "families_as_child": [
+        "F002"
+      ],
       "events": {
         "birth": {
           "date": "6.5.1740",
@@ -76,14 +98,23 @@
       "id": "I010",
       "name": "Margarte J. C. Stodeman",
       "sex": "F",
-      "families_as_spouse" : ["F005"],
-      "families_as_child" : ["F003"]
+      "families_as_spouse": [
+        "F005"
+      ],
+      "families_as_child": [
+        "F003"
+      ]
     },
     "I011": {
       "id": "I011",
       "name": "Burghard Hartwig Christoph Schmidt",
       "sex": "M",
-      "families_as_child" : ["F004"],
+      "families_as_spouse": [
+        "F006"
+      ],
+      "families_as_child": [
+        "F004"
+      ],
       "events": {
         "birth": {
           "date": "21.11.1764",
@@ -99,7 +130,12 @@
       "id": "I012",
       "name": "Anna Helena Elisabeth Waaken",
       "sex": "F",
-      "families_as_child" : ["F005"],
+      "families_as_spouse": [
+        "F006"
+      ],
+      "families_as_child": [
+        "F005"
+      ],
       "events": {
         "birth": {
           "place": "Carnien"
@@ -110,6 +146,12 @@
       "id": "I013",
       "name": "Sophia Magdalena Dorothea Schmidt",
       "sex": "F",
+      "families_as_child": [
+        "F006"
+      ],
+      "families_as_spouse": [
+        "F009"
+      ],
       "events": {
         "birth": {
           "date": "27.9.1808",
@@ -121,6 +163,12 @@
       "id": "I014",
       "name": "Johann Jochen Christian Kort",
       "sex": "M",
+      "families_as_spouse": [
+        "F_ID_KORT_DIERK"
+      ],
+      "families_as_child": [
+        "F_ID_KORT_STIEREN"
+      ],
       "events": {
         "birth": {
           "date": "30.6.1806",
@@ -132,6 +180,12 @@
       "id": "I015",
       "name": "Carline Catrina Sophie Dierk",
       "sex": "F",
+      "families_as_child": [
+        "F040"
+      ],
+      "families_as_spouse": [
+        "F_ID_KORT_DIERK"
+      ],
       "events": {
         "birth": {
           "date": "3.7.1806",
@@ -142,8 +196,13 @@
     "I016": {
       "id": "I016",
       "name": "Johann Friedrich Christian Müller",
-      "comment": "Hauswirt in Peckatel",
+      "occupation": {
+        "value": "Hauswirt in Peckatel"
+      },
       "sex": "M",
+      "families_as_spouse": [
+        "F008"
+      ],
       "events": {
         "birth": {
           "date": "17.11.1810",
@@ -156,6 +215,9 @@
       "name": "Sophia Maria Christiana Nieman",
       "comment": "TODO ! Implausibel dass sie mit 3 Jahren stirbt",
       "sex": "F",
+      "families_as_spouse": [
+        "F008"
+      ],
       "events": {
         "birth": {
           "date": "29.11.1817",
@@ -171,6 +233,9 @@
       "id": "I018",
       "name": "Johann Joachim Christian F. Hahn",
       "sex": "M",
+      "families_as_spouse": [
+        "F009"
+      ],
       "events": {
         "birth": {
           "date": "8.2.1804",
@@ -182,6 +247,9 @@
       "id": "I019",
       "name": "Johann Friedrich W. Viechelmann",
       "sex": "M",
+      "families_as_spouse": [
+        "F010"
+      ],
       "events": {
         "birth": {
           "date": "16.10.1826",
@@ -193,6 +261,9 @@
       "id": "I020",
       "name": "Sophia Henrica Dorothea Hecht",
       "sex": "F",
+      "families_as_spouse": [
+        "F010"
+      ],
       "events": {
         "birth": {
           "date": "27.12.1828",
@@ -204,6 +275,12 @@
       "id": "I021",
       "name": "Peter Sixel",
       "sex": "M",
+      "families_as_spouse": [
+        "F_ID_SIXEL_ENGELMANN"
+      ],
+      "families_as_child": [
+        "F_ID_SIXEL_BERG"
+      ],
       "events": {
         "birth": {
           "date": "24.1.1810",
@@ -219,6 +296,12 @@
       "id": "I022",
       "name": "Anna Cristine Engelmann",
       "sex": "F",
+      "families_as_spouse": [
+        "F_ID_SIXEL_ENGELMANN"
+      ],
+      "families_as_child": [
+        "F_ID_ENGELMANN_REPPERT"
+      ],
       "events": {
         "birth": {
           "date": "23.12.1805",
@@ -234,6 +317,9 @@
       "id": "I023",
       "name": "Peter Paul Schüler",
       "sex": "M",
+      "families_as_spouse": [
+        "F012"
+      ],
       "events": {
         "birth": {
           "date": "12.2.1800",
@@ -249,6 +335,9 @@
       "id": "I024",
       "name": "Maria Elisabeth Göhl",
       "sex": "F",
+      "families_as_spouse": [
+        "F012"
+      ],
       "events": {
         "birth": {
           "date": "18.11.1802",
@@ -264,6 +353,9 @@
       "id": "I025",
       "name": "Carl Gottlieb Damm",
       "sex": "M",
+      "families_as_spouse": [
+        "F013"
+      ],
       "events": {
         "birth": {
           "date": "28.8.1807",
@@ -279,6 +371,9 @@
       "id": "I026",
       "name": "Johanne Sophia Hönicker",
       "sex": "F",
+      "families_as_spouse": [
+        "F013"
+      ],
       "events": {
         "birth": {
           "date": "18.8.1807",
@@ -294,6 +389,9 @@
       "id": "I027",
       "name": "Carl August Stollberg",
       "sex": "M",
+      "families_as_spouse": [
+        "F014"
+      ],
       "events": {
         "birth": {
           "date": "30.7.1811",
@@ -309,6 +407,9 @@
       "id": "I028",
       "name": "Charlotte Wilhelmine Krause",
       "sex": "F",
+      "families_as_spouse": [
+        "F014"
+      ],
       "events": {
         "birth": {
           "date": "23.1.1815",
@@ -324,10 +425,19 @@
       "id": "I029",
       "name": "Johann Friedrich Heinrich Kort",
       "sex": "M",
+      "occupation": {
+        "value": "Hauswirt in Peckatel"
+      },
+      "families_as_child": [
+        "F_ID_KORT_DIERK"
+      ],
+      "families_as_spouse": [
+        "F_ID_KORT_MUELLER"
+      ],
       "events": {
         "birth": {
           "date": "21.12.1839",
-          "place": "Mecklenburg"
+          "place": "Peckatel"
         }
       }
     },
@@ -335,6 +445,12 @@
       "id": "I030",
       "name": "Marie Caroline Christene Müller",
       "sex": "F",
+      "families_as_child": [
+        "F008"
+      ],
+      "families_as_spouse": [
+        "F_ID_KORT_MUELLER"
+      ],
       "events": {
         "birth": {
           "date": "10.2.1844",
@@ -346,6 +462,12 @@
       "id": "I031",
       "name": "Johann Friedrich Ludwig Hahn",
       "sex": "M",
+      "families_as_child": [
+        "F009"
+      ],
+      "families_as_spouse": [
+        "F016"
+      ],
       "events": {
         "birth": {
           "date": "13.7.1849",
@@ -357,6 +479,12 @@
       "id": "I032",
       "name": "Sophie Dorothea L.C. Viechelmann",
       "sex": "F",
+      "families_as_child": [
+        "F010"
+      ],
+      "families_as_spouse": [
+        "F016"
+      ],
       "events": {
         "birth": {
           "date": "7.10.1852",
@@ -368,6 +496,12 @@
       "id": "I033",
       "name": "Peter Sixel",
       "sex": "M",
+      "families_as_child": [
+        "F_ID_SIXEL_ENGELMANN"
+      ],
+      "families_as_spouse": [
+        "F_ID_SIXEL_SCHUELER"
+      ],
       "events": {
         "birth": {
           "date": "10.3.1835",
@@ -387,6 +521,12 @@
       "id": "I034",
       "name": "Maria Kartharina Schüler",
       "sex": "F",
+      "families_as_child": [
+        "F012"
+      ],
+      "families_as_spouse": [
+        "F_ID_SIXEL_SCHUELER"
+      ],
       "events": {
         "birth": {
           "date": "27.10.1836",
@@ -406,6 +546,12 @@
       "id": "I035",
       "name": "Carl Gustav Damm",
       "sex": "M",
+      "families_as_child": [
+        "F013"
+      ],
+      "families_as_spouse": [
+        "F018"
+      ],
       "events": {
         "birth": {
           "date": "14.10.1843",
@@ -421,6 +567,12 @@
       "id": "I036",
       "name": "Louise Helene Ida Stollberg",
       "sex": "F",
+      "families_as_child": [
+        "F014"
+      ],
+      "families_as_spouse": [
+        "F018"
+      ],
       "events": {
         "birth": {
           "date": "3.4.1847",
@@ -436,6 +588,15 @@
       "id": "I037",
       "name": "Heinrich Johann Friedrich Kort",
       "sex": "M",
+      "families_as_child": [
+        "F_ID_KORT_MUELLER"
+      ],
+      "families_as_spouse": [
+        "F019"
+      ],
+      "occupation": {
+        "value": "Arbeiter"
+      },
       "events": {
         "birth": {
           "date": "22.2.1878",
@@ -451,6 +612,12 @@
       "id": "I038",
       "name": "Sophie Marie Elisabeth Hahn",
       "sex": "F",
+      "families_as_child": [
+        "F016"
+      ],
+      "families_as_spouse": [
+        "F019"
+      ],
       "events": {
         "birth": {
           "date": "20.1.1878",
@@ -466,6 +633,12 @@
       "id": "I039",
       "name": "Peter Sixel",
       "sex": "M",
+      "families_as_child": [
+        "F_ID_SIXEL_SCHUELER"
+      ],
+      "families_as_spouse": [
+        "F020"
+      ],
       "events": {
         "birth": {
           "date": "7.11.1861",
@@ -481,6 +654,12 @@
       "id": "I040",
       "name": "Marie Helene Damm",
       "sex": "F",
+      "families_as_child": [
+        "F018"
+      ],
+      "families_as_spouse": [
+        "F020"
+      ],
       "events": {
         "birth": {
           "date": "26.5.1873",
@@ -496,6 +675,15 @@
       "id": "I041",
       "name": "Erich Martin Heino Kort",
       "sex": "M",
+      "occupation": {
+        "value": "Kellermeister"
+      },
+      "families_as_child": [
+        "F019"
+      ],
+      "families_as_spouse": [
+        "F_ID_KORT_SIXEL"
+      ],
       "events": {
         "birth": {
           "date": "9.7.1909",
@@ -511,6 +699,12 @@
       "id": "I042",
       "name": "Margarete Sixel",
       "sex": "F",
+      "families_as_child": [
+        "F020"
+      ],
+      "families_as_spouse": [
+        "F_ID_KORT_SIXEL"
+      ],
       "events": {
         "birth": {
           "date": "2.3.1911",
@@ -522,10 +716,16 @@
         }
       }
     },
-    "I043": {
-      "id": "I043",
+    "ID_ELKE": {
+      "id": "ID_ELKE",
       "name": "Elke Kort",
       "sex": "F",
+      "families_as_spouse": [
+        "F_ID_CAPELLA_KORT"
+      ],
+      "families_as_child": [
+        "F_ID_KORT_SIXEL"
+      ],
       "events": {
         "birth": {
           "date": "27.2.1941",
@@ -535,8 +735,11 @@
     },
     "I044": {
       "id": "I044",
-      "name": "Antiono Capella Bustos",
+      "name": "Antonio Capella Bustos",
       "sex": "M",
+      "families_as_spouse": [
+        "F022"
+      ],
       "events": {
         "birth": {
           "place": "Almeria, Espana"
@@ -550,6 +753,9 @@
       "id": "I045",
       "name": "Josefa Vizcaino Veiga",
       "sex": "F",
+      "families_as_spouse": [
+        "F022"
+      ],
       "events": {
         "birth": {
           "date": "1911",
@@ -564,6 +770,12 @@
       "id": "I046",
       "name": "Antonio Capella Vizcaino",
       "sex": "M",
+      "families_as_spouse": [
+        "F_ID_CAPELLA_KORT"
+      ],
+      "families_as_child": [
+        "F022"
+      ],
       "events": {
         "birth": {
           "date": "7.10.1938",
@@ -571,10 +783,16 @@
         }
       }
     },
-    "I047": {
-      "id": "I047",
+    "ID_TONIO": {
+      "id": "ID_TONIO",
       "name": "Antonia Kort Capella",
       "sex": "M",
+      "families_as_child": [
+        "F_ID_CAPELLA_KORT"
+      ],
+      "families_as_spouse": [
+        "F_ID_CAPELLA_PENA"
+      ],
       "events": {
         "birth": {
           "date": "4.2.1971",
@@ -586,6 +804,12 @@
       "id": "I048",
       "name": "Johann Peter Sixel",
       "sex": "M",
+      "families_as_child": [
+        "F_ID_SIXEL_LENHART"
+      ],
+      "families_as_spouse": [
+        "F_ID_SIXEL_BERG"
+      ],
       "events": {
         "birth": {
           "date": "5.2.1770",
@@ -604,6 +828,9 @@
       "id": "I049",
       "name": "Anna Elisabetha Berg",
       "sex": "F",
+      "families_as_spouse": [
+        "F_ID_SIXEL_BERG"
+      ],
       "events": {
         "birth": {
           "date": "9.4.1785",
@@ -622,6 +849,12 @@
       "id": "I050",
       "name": "Johann Jakob Engelmann",
       "sex": "M",
+      "families_as_spouse": [
+        "F_ID_ENGELMANN_REPPERT"
+      ],
+      "families_as_child": [
+        "F_ID_ENGELMANN_BARTHEL"
+      ],
       "events": {
         "birth": {
           "date": "23.12.1761",
@@ -641,6 +874,12 @@
       "id": "I051",
       "name": "Maria Christina Reppert",
       "sex": "F",
+      "families_as_child": [
+        "F_ID_REPPERT_KRAMER"
+      ],
+      "families_as_spouse": [
+        "F_ID_ENGELMANN_REPPERT"
+      ],
       "events": {
         "birth": {
           "date": "29.7.1768",
@@ -659,6 +898,9 @@
     "I052": {
       "id": "I052",
       "name": "Franz Schuler",
+      "families_as_spouse": [
+        "F026"
+      ],
       "sex": "M",
       "events": {
         "birth": {
@@ -675,26 +917,35 @@
       "id": "I053",
       "name": "Ida Diebold",
       "sex": "F",
+      "families_as_spouse": [
+        "F026"
+      ],
       "events": {
         "birth": {
           "date": "31.10.1767"
         }
       }
     },
-    "I054": {
-      "id": "I054",
+    "ID_AURA": {
+      "id": "ID_AURA",
       "name": "Aura Pena Gutierrez",
       "sex": "F",
+      "families_as_spouse": [
+        "F_ID_CAPELLA_PENA"
+      ],
       "events": {
         "marriage": {
           "place": "Mexico D.F., Mexico"
         }
       }
     },
-    "I055": {
-      "id": "I055",
+    "ID_ALBA": {
+      "id": "ID_ALBA",
       "name": "Alba Capella Pena",
       "sex": "F",
+      "families_as_child": [
+        "F_ID_CAPELLA_PENA"
+      ],
       "events": {
         "birth": {
           "place": "Bonn",
@@ -702,10 +953,13 @@
         }
       }
     },
-    "I056": {
-      "id": "I056",
+    "ID_ANTONIO": {
+      "id": "ID_ANTONIO",
       "name": "Antonio Capella Pena",
       "sex": "M",
+      "families_as_child": [
+        "F_ID_CAPELLA_PENA"
+      ],
       "events": {
         "birth": {
           "place": "Mexico D.F., Mexico",
@@ -717,6 +971,12 @@
       "id": "I057",
       "name": "Johann Michael Sixel",
       "sex": "M",
+      "families_as_child": [
+        "F_ID_SIXEL_WICKERT"
+      ],
+      "families_as_spouse": [
+        "F_ID_SIXEL_LENHART"
+      ],
       "events": {
         "birth": {
           "date": "20.2.1740"
@@ -730,6 +990,12 @@
       "id": "I058",
       "name": "Anna Elisabeth Lenhart",
       "sex": "F",
+      "families_as_child": [
+        "F030"
+      ],
+      "families_as_spouse": [
+        "F_ID_SIXEL_LENHART"
+      ],
       "events": {
         "birth": {
           "date": "22.10.1741",
@@ -745,6 +1011,15 @@
       "id": "I059",
       "name": "Johann Petrus Sixel",
       "sex": "M",
+      "occupation": {
+        "value": "Landwirt"
+      },
+      "families_as_spouse": [
+        "F_ID_SIXEL_WICKERT"
+      ],
+      "families_as_child": [
+        "F_ID_SIXEL_SIMON"
+      ],
       "events": {
         "birth": {
           "date": "30.9.1708",
@@ -760,9 +1035,13 @@
       "name": "Anna Elisabetha Wickert",
       "comment": "Beburtsdatum 1712-1735",
       "sex": "F",
+      "families_as_spouse": [
+        "F_ID_SIXEL_WICKERT"
+      ],
       "events": {
         "death": {
-          "date": "23.1.1761"
+          "date": "23.1.1761",
+          "place": "Horn"
         }
       }
     },
@@ -771,6 +1050,9 @@
       "name": "Johann V Georg Lenhart",
       "comment": "auch Leonhard",
       "sex": "M",
+      "families_as_spouse": [
+        "F030"
+      ],
       "events": {
         "birth": {
           "date": "1716"
@@ -780,12 +1062,18 @@
     "I062": {
       "id": "I062",
       "name": "Anna Magdalene Kurz",
-      "sex": "F"
+      "sex": "F",
+      "families_as_spouse": [
+        "F030"
+      ]
     },
     "I063": {
       "id": "I063",
       "name": "Heinrich Kort",
       "sex": "M",
+      "families_as_spouse": [
+        "F_ID_KORT_LUEBAHRS"
+      ],
       "events": {
         "birth": {
           "date": "1620"
@@ -800,6 +1088,9 @@
       "id": "I064",
       "name": "Trine Lübahrs",
       "sex": "F",
+      "families_as_spouse": [
+        "F_ID_KORT_LUEBAHRS"
+      ],
       "events": {
         "birth": {
           "date": "1637"
@@ -813,18 +1104,30 @@
     "I065": {
       "id": "I065",
       "name": "Bährings",
+      "families_as_spouse": [
+        "F037"
+      ],
       "events": {
         "place": "Deutschland"
       }
     },
     "I066": {
       "id": "I066",
-      "name": "Johanm Kort",
+      "name": "Johann Kort",
       "sex": "M",
+      "occupation": {
+        "value": "Häußler"
+      },
+      "families_as_child": [
+        "F_ID_KORT_LUEBAHRS"
+      ],
+      "families_as_spouse": [
+        "F_ID_KORT_BAEHRINGS"
+      ],
       "events": {
         "birth": {
           "date": "3.9.1679",
-          "Place": "Peckatel"
+          "place": "Peckatel"
         },
         "marriage": {
           "date": "29.10.1726",
@@ -840,6 +1143,12 @@
       "id": "I067",
       "name": "Maria Bährings",
       "sex": "F",
+      "families_as_child": [
+        "F037"
+      ],
+      "families_as_spouse": [
+        "F_ID_KORT_BAEHRINGS"
+      ],
       "events": {
         "birth": {
           "date": "28.02.1702",
@@ -854,12 +1163,24 @@
     "I068": {
       "id": "I068",
       "name": "Joachim Friedrich Behring",
-      "sex": "M"
+      "sex": "M",
+      "families_as_spouse": [
+        "F_ID_BEHRING_UNBEKANNT"
+      ]
     },
     "I069": {
       "id": "I069",
       "name": "Claus Hinrich Kort",
       "sex": "M",
+      "occupation": {
+        "value": "Büdner"
+      },
+      "families_as_child": [
+        "F_ID_KORT_BAEHRINGS"
+      ],
+      "families_as_spouse": [
+        "F_ID_KORT_BEHRING"
+      ],
       "events": {
         "birth": {
           "date": "11.8.1741",
@@ -874,6 +1195,13 @@
     "I070": {
       "id": "I070",
       "name": "Catharina Sophia Behring",
+      "sex": "F",
+      "families_as_child": [
+        "F_ID_BEHRING_UNBEKANNT"
+      ],
+      "families_as_spouse": [
+        "F_ID_KORT_BEHRING"
+      ],
       "events": {
         "birth": {
           "date": "1745",
@@ -888,6 +1216,7 @@
     "I071": {
       "id": "I071",
       "name": "Stieren",
+      "families_as_spouse": ["F036"],
       "events": {
         "death": {
           "place": "Mecklenburg, Schwerin"
@@ -898,6 +1227,15 @@
       "id": "I072",
       "name": "Johann Heinrich Christoph Kort",
       "sex": "M",
+      "occupation": {
+        "value": "Rademacher"
+      },
+      "families_as_child": [
+        "F_ID_KORT_BEHRING"
+      ],
+      "families_as_spouse": [
+        "F_ID_KORT_STIEREN"
+      ],
       "events": {
         "birth": {
           "date": "29.6.1776",
@@ -908,13 +1246,1074 @@
     "I073": {
       "id": "I073",
       "name": "Dorothea Stieren",
+      "comment": "Zu jung um Mutter zu sein. Implausibel",
       "sex": "F",
+      "families_as_child": [
+        "F036"
+      ],
+      "families_as_spouse": [
+        "F_ID_KORT_STIEREN"
+      ],
       "events": {
         "birth": {
           "date": "18.1.1800"
         }
       }
+    },
+    "I074": {
+      "id": "I074",
+      "name": "Hans Hinrich Dähn",
+      "sex": "M",
+      "families_as_spouse": [
+        "F038"
+      ],
+      "events": {
+        "birth": {
+          "date": "28.10.1693",
+          "place": "Mecklenburg"
+        }
+      }
+    },
+    "I075": {
+      "id": "I075",
+      "name": "Hans Joachim Dähn",
+      "sex": "M",
+      "families_as_spouse": [
+        "F039"
+      ],
+      "families_as_child": [
+        "F038"
+      ],
+      "events": {
+        "birth": {
+          "date": "11.11.1731"
+        },
+        "marriage": {
+          "date": "6.8.1759",
+          "place": "Mecklenburg"
+        }
+      }
+    },
+    "I076": {
+      "id": "I076",
+      "name": "Katharina Maria Korten",
+      "sex": "F",
+      "families_as_spouse": [
+        "F039"
+      ],
+      "families_as_child": [
+        "F_ID_KORT_BAEHRINGS"
+      ],
+      "events": {
+        "birth": {
+          "date": "2.3.1736"
+        },
+        "marriage": {
+          "date": "6.8.1759",
+          "place": "Mecklenburg"
+        }
+      }
+    },
+    "I077": {
+      "id": "I077",
+      "name": "Johan Dierk",
+      "sex": "M",
+      "families_as_spouse": [
+        "F040"
+      ]
+    },
+    "I078": {
+      "id": "I078",
+      "name": "Catharina Maria Dähn",
+      "sex": "F",
+      "families_as_spouse": [
+        "F040"
+      ],
+      "families_as_child": [
+        "F039"
+      ],
+      "events": {
+        "birth": {
+          "date": "4.11.1765",
+          "place": "Peckatel"
+        },
+        "death": {
+          "date": "13.2.1837"
+        }
+      }
+    },
+    "I079": {
+      "id": "I079",
+      "name": "Johann Christian Kort",
+      "families_as_child": [
+        "F_ID_KORT_MUELLER"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "1868"
+        }
+      }
+    },
+    "I080": {
+      "id": "I080",
+      "name": "Marie Louise Johanne Kort",
+      "families_as_child": [
+        "F_ID_KORT_MUELLER"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1870"
+        }
+      }
+    },
+    "I081": {
+      "id": "I081",
+      "name": "Friedrich Christian Kort",
+      "families_as_child": [
+        "F_ID_KORT_MUELLER"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "1872"
+        }
+      }
+    },
+    "I082": {
+      "id": "I082",
+      "name": "Sophie Christine Friederike Kort",
+      "families_as_child": [
+        "F_ID_KORT_MUELLER"
+      ],
+      "families_as_spouse": [
+        "F_ID_MUELLER_MUELLER"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1875"
+        },
+        "marriage": {
+          "date" : "10.12.1887"
+        }
+      }
+    },
+    "I083": {
+      "id": "I083",
+      "name": "Hans Georg Sixel",
+      "families_as_spouse": [
+        "F_ID_SIXEL_01"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "1604",
+          "place": "Bayerischer Wald"
+        },
+        "death": {
+          "date": "10.4.1697",
+          "place": "Hunsrück"
+        }
+      }
+    },
+    "I084": {
+      "id": "I084",
+      "name": "Anna Marg.",
+      "families_as_spouse": [
+        "F_ID_SIXEL_01"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1639",
+          "place": "Weidelbach"
+        },
+        "death": {
+          "date": "25.2.1713",
+          "place": "Weidelbach"
+        }
+      }
+    },
+    "I085": {
+      "id": "I085",
+      "name": "Johannes Simon",
+      "families_as_spouse": [
+        "F_ID_SIMON_01"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "12.1654",
+          "place": "Herren Salzbach"
+        },
+        "death": {
+          "date": "20.12.1700",
+          "place": "Ansbach, Bayern"
+        }
+      }
+    },
+    "I086": {
+      "id": "I086",
+      "name": "Anna Maria",
+      "families_as_spouse": [
+        "F_ID_SIMON_01"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1696"
+        }
+      }
+    },
+    "I087": {
+      "id": "I087",
+      "name": "Johan Peter Sixel",
+      "families_as_spouse": [
+        "F_ID_SIXEL_SIMON"
+      ],
+      "families_as_child": [
+        "F_ID_SIXEL_01"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "25.11.1671",
+          "place": "Weidelbach, Hunsrück"
+        },
+        "marriage": {
+          "date": "5.11.1697",
+          "place": "Pleizenhausen, Rheinland-Pfalz"
+        },
+        "death": {
+          "date": "20.3.1743",
+          "place": "Weidelbach, Hunsrück"
+        }
+      }
+    },
+    "I088": {
+      "id": "I088",
+      "name": "Eva Catharina Simon",
+      "families_as_spouse": [
+        "F_ID_SIXEL_SIMON"
+      ],
+      "families_as_child": [
+        "F_ID_SIMON_01"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "3.6.1681",
+          "place": "Weidelbach, Hunsrück"
+        },
+        "marriage": {
+          "date": "5.11.1697",
+          "place": "Pleizenhausen, Rheinland-Pfalz"
+        },
+        "death": {
+          "date": "29.7.1746",
+          "place": "Weidelbach, Hunsrück"
+        }
+      }
+    },
+    "I089": {
+      "id": "I089",
+      "name": "Hans Peter Engelmann",
+      "families_as_spouse": [
+        "F_ID_ENGELMANN_HUBER"
+      ],
+      "families_as_child": [
+        "F_ID_ENGELMANN_FRANTZ"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "23.10.1689",
+          "place": "Völklingen"
+        },
+        "marriage": {
+          "date": "10.8.1717",
+          "place": "Völklingen"
+        },
+        "death": {
+          "date": "23.8.1736",
+          "place": "Völklingen"
+        }
+      }
+    },
+    "I090": {
+      "id": "I090",
+      "name": "Anna Margaretha Huber",
+      "families_as_spouse": [
+        "F_ID_ENGELMANN_HUBER"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "29.10.1696"
+        },
+        "death": {
+          "date": "14.1.1768"
+        }
+      }
+    },
+    "I091": {
+      "id": "I091",
+      "name": "Johann Georg Barthel",
+      "families_as_spouse": [
+        "F_ID_BARTHEL_HUBIG"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "2.9.1708"
+        },
+        "death": {
+          "date": "10.12.1775"
+        }
+      }
+    },
+    "I092": {
+      "id": "I092",
+      "name": "Maria Eli Hubig",
+      "families_as_spouse": [
+        "F_ID_BARTHEL_HUBIG"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "22.11.1711",
+          "place": "Völkingen"
+        },
+        "death": {
+          "date": "14.10.1782",
+          "place": "Völkingen"
+        }
+      }
+    },
+    "I093": {
+      "id": "I093",
+      "name": "Johann Adam Reppert",
+      "families_as_spouse": [
+        "F_ID_REPPERT_KARCHER"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "14.03.1706"
+        },
+        "death": {
+          "date": "7.2.1763",
+          "place": "Bayern"
+        }
+      }
+    },
+    "I094": {
+      "id": "I094",
+      "name": "Anna Catharina Karcher",
+      "families_as_spouse": [
+        "F_ID_REPPERT_KARCHER"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "8.10.1713",
+          "place": "Saarland"
+        },
+        "death": {
+          "date": "4.2.1765"
+        }
+      }
+    },
+    "I095": {
+      "id": "I095",
+      "name": "Johann Adam Krämer",
+      "families_as_spouse": [
+        "F_ID_KRAEMER_STENGER"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "4.12.1712",
+          "place": "Alsace, Frankreich"
+        },
+        "death": {
+          "date": "5.3.1765",
+          "place": "Karlsbrunn"
+        }
+      }
+    },
+    "I096": {
+      "id": "I096",
+      "name": "Maria Christiene Stenger",
+      "families_as_spouse": [
+        "F_ID_KRAEMER_STENGER"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "12.6.1726",
+          "place": "Wingen"
+        },
+        "death": {
+          "date": "7.12.1762",
+          "place": "Karlsbrunn"
+        }
+      }
+    },
+    "I097": {
+      "id": "I097",
+      "name": "Johann Konrad Engelmann",
+      "families_as_child": [
+        "F_ID_ENGELMANN_HUBER"
+      ],
+      "families_as_spouse": [
+        "F_ID_ENGELMANN_BARTHEL"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "29.9.1721",
+          "place": "Wingen"
+        },
+        "marriage": {
+          "date": "15.15.1753",
+          "place": "Völkingen"
+        },
+        "death": {
+          "date": "28.6.1783",
+          "place": "Karlsbrunn"
+        }
+      }
+    },
+    "I098": {
+      "id": "I098",
+      "name": "Anna Dorothea Barthel",
+      "families_as_child": [
+        "F_ID_BARTHEL_HUBIG"
+      ],
+      "families_as_spouse": [
+        "F_ID_ENGELMANN_BARTHEL"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "8.7.1736"
+        },
+        "marriage": {
+          "date": "15.15.1753",
+          "place": "Völkingen"
+        },
+        "death": {
+          "date": "30.12.1816"
+        }
+      }
+    },
+    "I099": {
+      "id": "I099",
+      "name": "Johann Adam Reppert",
+      "families_as_child": [
+        "F_ID_REPPERT_KARCHER"
+      ],
+      "families_as_spouse": [
+        "F_ID_REPPERT_KRAMER"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "22.9.1743"
+        },
+        "marriage": {
+          "date": "5.11.1762"
+        },
+        "death": {
+          "date": "22.11.1780",
+          "place": "Bayern"
+        }
+      }
+    },
+    "I100": {
+      "id": "I100",
+      "name": "Anna Magraretha Kramer",
+      "families_as_child": [
+        "F_ID_KRAEMER_STENGER"
+      ],
+      "families_as_spouse": [
+        "F_ID_REPPERT_KRAMER"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "17.1.1746"
+        },
+        "marriage": {
+          "date": "5.11.1762"
+        },
+        "death": {
+          "date": "12.1.1814"
+        }
+      }
+    },
+    "I101": {
+      "id": "I101",
+      "name": "Hans Jacob Engelmann",
+      "families_as_spouse": [
+        "F_ID_ENGELMANN_FRANTZ"
+      ],
+      "families_as_child": [
+        "F_ID_ENGELMANN_UNKNOWN"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "17.12.1661",
+          "place": "Saarland"
+        },
+        "marriage": {
+          "date": "1683",
+          "place": "Völklingen"
+        },
+        "death": {
+          "date": "21.3.1718",
+          "place": "Saarland"
+        }
+      }
+    },
+    "I102": {
+      "id": "I102",
+      "name": "Maria Margaretha Frantz",
+      "families_as_spouse": [
+        "F_ID_ENGELMANN_FRANTZ"
+      ],
+      "families_as_child": [
+        "F_ID_FRANTZ_KLAES"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1.1.1657",
+          "place": "Völklingen"
+        },
+        "marriage": {
+          "date": "1683",
+          "place": "Völklingen"
+        },
+        "death": {
+          "date": "15.2.1735",
+          "place": "Völklingen"
+        }
+      }
+    },
+    "I103": {
+      "id": "I103",
+      "name": "Jacob Engelmann",
+      "families_as_spouse": [
+        "F_ID_ENGELMANN_UNKNOWN"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "1640",
+          "place": "Saarland"
+        }
+      }
+    },
+    "I104": {
+      "id": "I104",
+      "name": "Georg Frantz",
+      "families_as_spouse": [
+        "F_ID_FRANTZ_KLAES"
+      ],
+      "families_as_child": [
+        "F_ID_FRANTZ_UNBEHEND"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "31.3.1631",
+          "place": "Völklingen"
+        },
+        "marriage": {
+          "date": "1665",
+          "place": "Völklingen"
+        },
+        "death": {
+          "date": "17.1.1708",
+          "place": "Völklingen"
+        }
+      }
+    },
+    "I105": {
+      "id": "I105",
+      "name": "Christine Kläs",
+      "families_as_spouse": [
+        "F_ID_FRANTZ_KLAES"
+      ],
+      "families_as_child": [
+        "F_ID_KLAES_SCHEFFER"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "23.11.1641"
+        },
+        "marriage": {
+          "date": "1665",
+          "place": "Völklingen"
+        },
+        "death": {
+          "date": "18.3.1721"
+        }
+      }
+    },
+    "I106": {
+      "id": "I106",
+      "name": "Peter Frantz",
+      "families_as_spouse": [
+        "F_ID_FRANTZ_UNBEHEND"
+      ],
+      "families_as_child": [
+        "F_ID_FRANTZ_UNBEHEND_02"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "1610",
+          "place": "Saarland"
+        },
+        "marriage": {
+          "place": "Völklingen, Saarland"
+        },
+        "death": {
+          "date": "1662",
+          "place": "Völklingen"
+        }
+      }
+    },
+    "I107": {
+      "id": "I107",
+      "name": "Eva Unbehend",
+      "families_as_spouse": [
+        "F_ID_FRANTZ_UNBEHEND"
+      ],
+      "families_as_child": [
+        "F_ID_UNBEHEND_OSTER"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1610",
+          "place": "Saarland"
+        },
+        "marriage": {
+          "place": "Völklingen"
+        },
+        "death": {
+          "date": "1664",
+          "place": "Völklingen"
+        }
+      }
+    },
+    "I108": {
+      "id": "I108",
+      "name": "Hans Velten Kläs",
+      "families_as_spouse": [
+        "F_ID_KLAES_SCHEFFER"
+      ],
+      "families_as_child": [
+        "F_ID_KLAES_CLESEN"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "1605",
+          "place": "Hilschbach"
+        },
+        "marriage": {
+          "date": "1641",
+          "place": "Hilschbach"
+        },
+        "death": {
+          "date": "1671"
+        }
+      }
+    },
+    "I109": {
+      "id": "I109",
+      "name": "Margaretha Scheffer",
+      "families_as_spouse": [
+        "F_ID_KLAES_SCHEFFER"
+      ],
+      "families_as_child": [
+        "F_ID_SCHEFFER_SIENEN"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1620"
+        },
+        "marriage": {
+          "date": "1641",
+          "place": "Hilschbach"
+        },
+        "death": {
+          "date": "Jan 1671"
+        }
+      }
+    },
+    "ID_PETER": {
+      "id": "ID_PETER",
+      "name": "Peter Heinrich Richard Kort",
+      "families_as_spouse": [
+        "F_ID_KORT_NIEDERHOF"
+      ],
+      "families_as_child": [
+        "F_ID_KORT_SIXEL"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "25.3.1938",
+          "place": "Dortmund"
+        },
+        "marriage": {
+          "date": "1968",
+          "place": "Berlin"
+        },
+        "death": {
+          "date": "4.6.2013",
+          "place": "Düsseldorf"
+        }
+      }
+    },
+    "ID_HEDDA": {
+      "id": "ID_HEDDA",
+      "name": "Hedda Adelheid Niederhof",
+      "families_as_spouse": [
+        "F_ID_KORT_NIEDERHOF"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1.11.1942"
+        },
+        "marriage": {
+          "date": "1968",
+          "place": "Berlin"
+        }
+      }
+    },
+    "ID_UTE": {
+      "id": "ID_UTE",
+      "name": "Ute Kort",
+      "families_as_spouse": [
+        "F_ID_KRIEGER_KORT"
+      ],
+      "families_as_child": [
+        "F_ID_KORT_SIXEL"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1943"
+        }
+      }
+    },
+    "ID_ALEX": {
+      "id": "ID_ALEX",
+      "name": "Alexander Peter Kort",
+      "families_as_child": [
+        "F_ID_KORT_NIEDERHOF"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "10.10.1971",
+          "place": "Düsseldorf"
+        }
+      }
+    },
+    "ID_KATHARINA": {
+      "id": "ID_KATHARINA",
+      "name": "Katharina Hedda Kort",
+      "families_as_child": [
+        "F_ID_KORT_NIEDERHOF"
+      ],
+      "families_as_spouse": [
+        "F_ID_BONACA_KORT"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "28.7.1973",
+          "place": "Düsseldorf"
+        }
+      }
+    },
+    "ID_WOLFGANG": {
+      "id": "ID_WOLFGANG",
+      "name": "Wolfgang Georg Krieger",
+      "families_as_spouse": [
+        "F_ID_KRIEGER_KORT"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "19.3.1940",
+          "place": "Düsseldorf"
+        },
+        "death": {
+          "date": "17.4.2021"
+        }
+      }
+    },
+    "ID_JAN": {
+      "id": "ID_JAN",
+      "name": "Jan Wolfgang Krieger",
+      "families_as_child": [
+        "F_ID_KRIEGER_KORT"
+      ],
+      "families_as_spouse": [
+        "F_ID_KRIEGER"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "1982"
+        }
+      }
+    },
+    "ID_ELKITA": {
+      "id": "ID_ELKITA",
+      "name": "Elke Capella Kort",
+      "families_as_child": [
+        "F_ID_CAPELLA_KORT"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1966"
+        }
+      }
+    },
+    "I110": {
+      "id": "I110",
+      "name": "Cuntz Frantz",
+      "families_as_spouse": [
+        "F_ID_FRANTZ_UNBEHEND_02"
+      ],
+      "families_as_child": [
+        "F_ID_FRANZ_UNBEKANNT"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "1570",
+          "place": "Saarland"
+        },
+        "death": {
+          "place": "Völklingen"
+        }
+      }
+    },
+    "I111": {
+      "id": "I111",
+      "name": "Juliana Unbehend",
+      "families_as_spouse": [
+        "F_ID_FRANTZ_UNBEHEND_02"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1584",
+          "place": "Saarland"
+        },
+        "death": {
+          "date": "1630",
+          "place": "Saarland"
+        }
+      }
+    },
+    "I112": {
+      "id": "I112",
+      "name": "Paulus Unbehend",
+      "families_as_spouse": [
+        "F_ID_UNBEHEND_OSTER"
+      ],
+      "comment": "Über 100 Jahre alt? Implausibel",
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "1560",
+          "place": "Völklingen"
+        },
+        "death": {
+          "date": "1672",
+          "place": "Saarland"
+        }
+      }
+    },
+    "I113": {
+      "id": "I113",
+      "name": "Barbel Oster",
+      "families_as_spouse": [
+        "F_ID_UNBEHEND_OSTER"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1590",
+          "place": "Walpershofen"
+        },
+        "death": {
+          "place": "Volklingen"
+        }
+      }
+    },
+    "I114": {
+      "id": "I114",
+      "name": "Henrich Kläs",
+      "families_as_spouse": [
+        "F_ID_KLAES_CLESEN"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "1570",
+          "place": "Saarland"
+        },
+        "death": {
+          "date": "1633",
+          "place": "Saarland"
+        }
+      }
+    },
+    "I115": {
+      "id": "I115",
+      "name": "Helene Clesen",
+      "families_as_spouse": [
+        "F_ID_KLAES_CLESEN"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1570",
+          "place": "Hilschbach"
+        },
+        "death": {
+          "date": "1626",
+          "place": "Hilschbach"
+        }
+      }
+    },
+    "I116": {
+      "id": "I116",
+      "name": "Jakob Scheffer",
+      "families_as_spouse": [
+        "F_ID_SCHEFFER_SIENEN"
+      ],
+      "sex": "M",
+      "events": {
+        "birth": {
+          "date": "1580",
+          "place": "Malstatt"
+        }
+      }
+    },
+    "I117": {
+      "id": "I117",
+      "name": "Catharina Sienen",
+      "families_as_spouse": [
+        "F_ID_SCHEFFER_SIENEN"
+      ],
+      "sex": "F",
+      "events": {
+        "birth": {
+          "date": "1590",
+          "place": "Volklingen"
+        },
+        "death": {
+          "date": "1634"
+        }
+      }
+    },
+    "I118": {
+      "id": "I118",
+      "name": "Hammans Franz",
+      "families_as_spouse": [
+        "F_ID_FRANZ_UNBEKANNT"
+      ],
+      "sex": "M"
+    },
+    "ID_NOAH": {
+      "id": "ID_NOAH",
+      "name": "Noah Alessandro Bonaca",
+      "families_as_child": [
+        "F_ID_BONACA_KORT"
+      ],
+      "sex":"M",
+      "events": {
+        "birth": {
+          "date": "26.8.2011",
+          "place": "Düsseldorf"
+        }
+      }
+    },
+    "ID_DANIELE": {
+      "id": "ID_DANIELE",
+      "name": "Daniele Bonaca",
+      "sex": "M",
+      "families_as_spouse": [
+        "F_ID_BONACA_KORT"
+      ]
+    },
+    "ID_TABEA": {
+      "id": "ID_TABEA",
+      "name": "Tabea",
+      "sex": "F",
+      "families_as_spouse": [
+        "F_ID_KRIEGER"
+      ]
+    },
+    "ID_LENA": {
+      "id": "ID_LENA",
+      "name": "Lena Aglaia Krieger",
+      "sex": "F",
+      "families_as_child" : [
+        "F_ID_KRIEGER"
+      ],
+      "events": {
+        "birth" : {
+          "date": "22.7.2020",
+          "place": "Heidelberg"
+        }
+      }
+    },
+    "I119": {
+      "id": "I119",
+      "name": "Johann Peter Sixel",
+      "sex": "M",
+      "families_as_child": [
+        "F_ID_SIXEL_SIMON"
+      ],
+      "birth" : {
+        "date": "24.11.1705",
+        "place": "Pleizenhausen, Rheinland"
+      }
+    },
+    "I120": {
+      "id": "I120",
+      "name": "Karl Wilhelm Christian Müller",
+      "sex": "M",
+      "families_as_spouse": [
+        "F_ID_MUELLER_MUELLER"
+      ],
+      "marriage" : {
+        "date": "10.12.1887"
+      }
     }
+
   },
   "families": {
     "F001": {
@@ -965,8 +2364,8 @@
         "I013"
       ]
     },
-    "F007": {
-      "id": "F007",
+    "F_ID_KORT_DIERK": {
+      "id": "F_ID_KORT_DIERK",
       "husband": "I014",
       "wife": "I015",
       "children": [
@@ -997,8 +2396,8 @@
         "I032"
       ]
     },
-    "F011": {
-      "id": "F011",
+    "F_ID_SIXEL_ENGELMANN": {
+      "id": "F_ID_SIXEL_ENGELMANN",
       "husband": "I021",
       "wife": "I022",
       "children": [
@@ -1029,12 +2428,16 @@
         "I036"
       ]
     },
-    "F015": {
-      "id": "F015",
+    "F_ID_KORT_MUELLER": {
+      "id": "F_ID_KORT_MUELLER",
       "husband": "I029",
       "wife": "I030",
       "children": [
-        "I037"
+        "I037",
+        "I079",
+        "I080",
+        "I081",
+        "I082"
       ]
     },
     "F016": {
@@ -1045,8 +2448,8 @@
         "I038"
       ]
     },
-    "F017": {
-      "id": "F017",
+    "F_ID_SIXEL_SCHUELER": {
+      "id": "F_ID_SIXEL_SCHUELER",
       "husband": "I033",
       "wife": "I034",
       "children": [
@@ -1077,12 +2480,14 @@
         "I042"
       ]
     },
-    "F021": {
-      "id": "F021",
+    "F_ID_KORT_SIXEL": {
+      "id": "F_ID_KORT_SIXEL",
       "husband": "I041",
       "wife": "I042",
       "children": [
-        "I043"
+        "ID_ELKE",
+        "ID_PETER",
+        "ID_UTE"
       ]
     },
     "F022": {
@@ -1093,24 +2498,25 @@
         "I046"
       ]
     },
-    "F023": {
-      "id": "F023",
+    "F_ID_CAPELLA_KORT": {
+      "id": "F_ID_CAPELLA_KORT",
       "husband": "I046",
-      "wife": "I043",
+      "wife": "ID_ELKE",
       "children": [
-        "I047"
+        "ID_ELKITA",
+        "ID_TONIO"
       ]
     },
-    "F024": {
-      "id": "F024",
+    "F_ID_SIXEL_BERG": {
+      "id": "F_ID_SIXEL_BERG",
       "husband": "I048",
       "wife": "I049",
       "children": [
         "I021"
       ]
     },
-    "F025": {
-      "id": "F025",
+    "F_ID_ENGELMANN_REPPERT": {
+      "id": "F_ID_ENGELMANN_REPPERT",
       "husband": "I050",
       "wife": "I051",
       "children": [
@@ -1125,25 +2531,25 @@
         "I023"
       ]
     },
-    "F027": {
-      "id": "F027",
-      "husband": "I046",
-      "wife": "I054",
+    "F_ID_CAPELLA_PENA": {
+      "id": "F_ID_CAPELLA_PENA",
+      "husband": "ID_TONIO",
+      "wife": "ID_AURA",
       "children": [
-        "I055",
-        "I056"
+        "ID_ALBA",
+        "ID_ANTONIO"
       ]
     },
-    "F028": {
-      "id": "F028",
+    "F_ID_SIXEL_LENHART": {
+      "id": "F_ID_SIXEL_LENHART",
       "husband": "I057",
       "wife": "I058",
       "children": [
         "I048"
       ]
     },
-    "F029": {
-      "id": "F029",
+    "F_ID_SIXEL_WICKERT": {
+      "id": "F_ID_SIXEL_WICKERT",
       "husband": "I059",
       "wife": "I060",
       "children": [
@@ -1158,40 +2564,41 @@
         "I058"
       ]
     },
-    "F031": {
-      "id": "F031",
+    "F_ID_KORT_LUEBAHRS": {
+      "id": "F_ID_KORT_LUEBAHRS",
       "husband": "I063",
       "wife": "I064",
       "children": [
         "I066"
       ]
     },
-    "F032": {
-      "id": "F032",
+    "F_ID_KORT_BAEHRINGS": {
+      "id": "F_ID_KORT_BAEHRINGS",
       "husband": "I066",
       "wife": "I067",
       "children": [
-        "I069"
+        "I069",
+        "I076"
       ]
     },
-    "F033": {
-      "id": "F033",
+    "F_ID_KORT_BEHRING": {
+      "id": "F_ID_KORT_BEHRING",
       "husband": "I069",
       "wife": "I070",
       "children": [
         "I072"
       ]
     },
-    "F034": {
-      "id": "F034",
+    "F_ID_KORT_STIEREN": {
+      "id": "F_ID_KORT_STIEREN",
       "husband": "I072",
       "wife": "I073",
       "children": [
         "I014"
       ]
     },
-    "F035": {
-      "id": "F035",
+    "F_ID_BEHRING_UNBEKANNT": {
+      "id": "F_ID_BEHRING_UNBEKANNT",
       "husband": "I068",
       "children": [
         "I070"
@@ -1210,6 +2617,217 @@
       "children": [
         "I067"
       ]
+    },
+    "F038": {
+      "id": "F038",
+      "husband": "I074",
+      "children": [
+        "I075"
+      ]
+    },
+    "F039": {
+      "id": "F039",
+      "husband": "I075",
+      "wife": "I076",
+      "children": [
+        "I078"
+      ]
+    },
+    "F040": {
+      "id": "F040",
+      "husband": "I077",
+      "wife": "I078",
+      "children": [
+        "I015"
+      ]
+    },
+    "F_ID_SIXEL_01": {
+      "id": "F_ID_SIXEL_01",
+      "husband": "I083",
+      "wife": "I084",
+      "children": [
+        "I087"
+      ]
+    },
+    "F_ID_SIMON_01": {
+      "id": "F_ID_SIMON_01",
+      "husband": "I085",
+      "wife": "I086",
+      "children": [
+        "I088"
+      ]
+    },
+    "F_ID_SIXEL_SIMON": {
+      "id": "F_ID_SIXEL_SIMON",
+      "husband": "I087",
+      "wife": "I088",
+      "children": [
+        "I058","I119"
+      ]
+    },
+    "F_ID_ENGELMANN_HUBER": {
+      "id": "F_ID_ENGELMANN_HUBER",
+      "husband": "I089",
+      "wife": "I090",
+      "children": [
+        "I097"
+      ]
+    },
+    "F_ID_BARTHEL_HUBIG": {
+      "id": "F_ID_BARTHEL_HUBIG",
+      "husband": "I091",
+      "wife": "I092",
+      "children": [
+        "I098"
+      ]
+    },
+    "F_ID_REPPERT_KARCHER": {
+      "id": "F_ID_REPPERT_KARCHER",
+      "husband": "I093",
+      "wife": "I094",
+      "children": [
+        "I099"
+      ]
+    },
+    "F_ID_KRAEMER_STENGER": {
+      "id": "F_ID_KRAEMER_STENGER",
+      "husband": "I095",
+      "wife": "I096",
+      "children": [
+        "I100"
+      ]
+    },
+    "F_ID_ENGELMANN_BARTHEL": {
+      "id": "F_ID_ENGELMANN_BARTHEL",
+      "husband": "I097",
+      "wife": "I098",
+      "children": [
+        "I050"
+      ]
+    },
+    "F_ID_REPPERT_KRAMER": {
+      "id": "F_ID_REPPERT_KRAMER",
+      "husband": "I099",
+      "wife": "I100",
+      "children": [
+        "I051"
+      ]
+    },
+    "F_ID_ENGELMANN_FRANTZ": {
+      "id": "F_ID_ENGELMANN_FRANTZ",
+      "husband": "I101",
+      "wife": "I102",
+      "children": [
+        "I089"
+      ]
+    },
+    "F_ID_ENGELMANN_UNKNOWN": {
+      "id": "F_ID_ENGELMANN_UNKNOWN",
+      "husband": "I103",
+      "children": [
+        "I101"
+      ]
+    },
+    "F_ID_FRANTZ_KLAES": {
+      "id": "F_ID_FRANTZ_KLAES",
+      "husband": "I104",
+      "wife": "I105",
+      "children": [
+        "I102"
+      ]
+    },
+    "F_ID_FRANTZ_UNBEHEND": {
+      "id": "F_ID_FRANTZ_UNBEHEND",
+      "husband": "I106",
+      "wife": "I107",
+      "children": [
+        "I104"
+      ]
+    },
+    "F_ID_KLAES_SCHEFFER": {
+      "id": "F_ID_KLAES_SCHEFFER",
+      "husband": "I108",
+      "wife": "I109",
+      "children": [
+        "I105"
+      ]
+    },
+    "F_ID_KORT_NIEDERHOF": {
+      "id": "F_ID_KORT_NIEDERHOF",
+      "husband": "ID_PETER",
+      "wife": "ID_HEDDA",
+      "children": [
+        "ID_ALEX",
+        "ID_KATHARINA"
+      ]
+    },
+    "F_ID_KRIEGER_KORT": {
+      "id": "F_ID_KRIEGER_KORT",
+      "husband": "ID_WOLFGANG",
+      "wife": "ID_UTE",
+      "children": [
+        "ID_JAN"
+      ]
+    },
+    "F_ID_FRANTZ_UNBEHEND_02": {
+      "id": "F_ID_FRANTZ_UNBEHEND_02",
+      "husband": "I110",
+      "wife": "I111",
+      "children": [
+        "I106"
+      ]
+    },
+    "F_ID_UNBEHEND_OSTER": {
+      "id": "F_ID_UNBEHEND_OSTER",
+      "husband": "I112",
+      "wife": "I113",
+      "children": [
+        "I107"
+      ]
+    },
+    "F_ID_KLAES_CLESEN": {
+      "id": "F_ID_KLAES_CLESEN",
+      "husband": "I114",
+      "wife": "I115",
+      "children": [
+        "I108"
+      ]
+    },
+    "F_ID_SCHEFFER_SIENEN": {
+      "id": "F_ID_SCHEFFER_SIENEN",
+      "husband": "I116",
+      "wife": "I117",
+      "children": [
+        "I100"
+      ]
+    },
+    "F_ID_FRANZ_UNBEKANNT": {
+      "id": "F_ID_FRANZ_UNBEKANNT",
+      "husband": "I118",
+      "children": [
+        "I110"
+      ]
+    },
+    "F_ID_BONACA_KORT": {
+      "id": "F_ID_BONACA_KORT",
+      "husband": "ID_DANIELE",
+      "wife": "ID_KATHARINA",
+      "children": [
+        "ID_NOAH"
+      ]
+    },
+    "F_ID_KRIEGER": {
+      "id": "F_ID_KRIEGER",
+      "husband": "ID_JAN",
+      "wife": "ID_TABEA",
+      "children": [
+        "ID_LENA"
+      ]
+    },
+    "F_MUELLER_MUELLER": {
+      "id": "F_MUELLER_MUELLER",
+      "husband": "I120",
+      "wife": "I082"
     }
   }
 }
