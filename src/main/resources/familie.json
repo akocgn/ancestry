@@ -1216,7 +1216,9 @@
     "I071": {
       "id": "I071",
       "name": "Stieren",
-      "families_as_spouse": ["F036"],
+      "families_as_spouse": [
+        "F036"
+      ],
       "events": {
         "death": {
           "place": "Mecklenburg, Schwerin"
@@ -1396,7 +1398,7 @@
           "date": "1875"
         },
         "marriage": {
-          "date" : "10.12.1887"
+          "date": "10.12.1887"
         }
       }
     },
@@ -1990,6 +1992,9 @@
     "ID_HEDDA": {
       "id": "ID_HEDDA",
       "name": "Hedda Adelheid Niederhof",
+      "families_as_child": [
+        "F_ID_NIEDERHOF_KRUEGER"
+      ],
       "families_as_spouse": [
         "F_ID_KORT_NIEDERHOF"
       ],
@@ -2252,7 +2257,7 @@
       "families_as_child": [
         "F_ID_BONACA_KORT"
       ],
-      "sex":"M",
+      "sex": "M",
       "events": {
         "birth": {
           "date": "26.8.2011",
@@ -2280,11 +2285,11 @@
       "id": "ID_LENA",
       "name": "Lena Aglaia Krieger",
       "sex": "F",
-      "families_as_child" : [
+      "families_as_child": [
         "F_ID_KRIEGER"
       ],
       "events": {
-        "birth" : {
+        "birth": {
           "date": "22.7.2020",
           "place": "Heidelberg"
         }
@@ -2297,7 +2302,7 @@
       "families_as_child": [
         "F_ID_SIXEL_SIMON"
       ],
-      "birth" : {
+      "birth": {
         "date": "24.11.1705",
         "place": "Pleizenhausen, Rheinland"
       }
@@ -2309,11 +2314,79 @@
       "families_as_spouse": [
         "F_ID_MUELLER_MUELLER"
       ],
-      "marriage" : {
+      "marriage": {
         "date": "10.12.1887"
       }
+    },
+    "I121": {
+      "id": "I121",
+      "name": "Eva Krüger",
+      "sex": "F",
+      "families_as_child": [
+        "F_ID_KRUEGER_LIEBSCH"
+      ],
+      "families_as_spouse": [
+        "F_ID_NIEDERHOF_KRUEGER"
+      ],
+      "events": {
+        "birth": {
+          "date": "10.6.1910"
+        }
+      }
+    },
+    "I122": {
+      "id": "I122",
+      "name": "Wilhelm Niederhof",
+      "sex": "M",
+      "families_as_spouse": [
+        "F_ID_NIEDERHOF_KRUEGER"
+      ],
+      "events": {
+        "birth": {
+          "date": "10.07."
+        }
+      }
+    },
+    "ID_TANTE_DORA": {
+      "id": "ID_TANTE_DORA",
+      "name": "Dora Krüger",
+      "sex": "F",
+      "families_as_child": [
+        "F_ID_KRUEGER_LIEBSCH"
+      ],
+      "families_as_spouse": [
+        "F_ID_ENGELHARDT_KRUEGER"
+      ],
+      "events": {
+        "birth": {
+          "date": "2.8.1901"
+        }
+      }
+    },
+    "ID_ONKEL_MICKY": {
+      "id": "ID_ONKEL_MICKY",
+      "name": "Geoerg Engelhardt",
+      "sex": "M",
+      "families_as_spouse": [
+        "F_ID_ENGELHARDT_KRUEGER"
+      ]
+    },
+    "I125": {
+      "id": "I125",
+      "name": "Paul Krüger",
+      "sex": "M",
+      "families_as_spouse": [
+        "F_ID_KRUEGER_LIEBSCH"
+      ]
+    },
+    "I126": {
+      "id": "I126",
+      "name": "Adelheid Liebsch",
+      "sex": "F",
+      "families_as_spouse": [
+        "F_ID_KRUEGER_LIEBSCH"
+      ]
     }
-
   },
   "families": {
     "F001": {
@@ -2662,7 +2735,8 @@
       "husband": "I087",
       "wife": "I088",
       "children": [
-        "I058","I119"
+        "I058",
+        "I119"
       ]
     },
     "F_ID_ENGELMANN_HUBER": {
@@ -2828,6 +2902,28 @@
       "id": "F_MUELLER_MUELLER",
       "husband": "I120",
       "wife": "I082"
+    },
+    "F_ID_NIEDERHOF_KRUEGER": {
+      "id": "F_ID_NIEDERHOF_KRUEGER",
+      "husband": "I122",
+      "wife": "I121",
+      "children": [
+        "ID_HEDDA"
+      ]
+    },
+    "F_ID_ENGELHARDT_KRUEGER": {
+      "id": "F_ID_ENGELHARDT_KRUEGER",
+      "husband": "ID_ONKEL_MICKY",
+      "wife": "ID_TANTE_DORA"
+    },
+    "F_ID_KRUEGER_LIEBSCH": {
+      "id": "F_ID_KRUEGER_LIEBSCH",
+      "husband": "I125",
+      "wife": "I126",
+      "children": [
+        "I121",
+        "ID_TANTE_DORA"
+      ]
     }
   }
 }
